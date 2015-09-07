@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="#ffffff"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/txtGameName_WidgetItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:text="@string/visible_text"
+        android:textColor="@color/background_floating_material_dark"
+        xmlns:android="http://schemas.android.com/apk/res/android" />
+
+    <TextView
+        android:id="@+id/txtMatchTime_WidgetItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10sp"
+        android:textStyle="italic"
+        android:text="@string/visible_text"
+        android:textColor="@color/background_floating_material_dark"
+        xmlns:android="http://schemas.android.com/apk/res/android" />
+    <TextView
+        android:id="@+id/txtScore_WidgetItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10sp"
+        android:textStyle="italic"
+        android:text="@string/visible_text"
+        android:textColor="@color/background_floating_material_dark"
+        xmlns:android="http://schemas.android.com/apk/res/android" />
+
+</LinearLayout>
